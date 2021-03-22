@@ -6,6 +6,32 @@
   list-style: none;
   text-decoration: none;
 }
+.subti{
+  
+    font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    
+    
+  font-weight: 1000;
+}
+
+
+.subti2{
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.7em;
+}
+.subti3{
+  font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 1.6em;
+}
+
+
+
 
 html {
   font-family: "Raleway";
@@ -425,7 +451,7 @@ background-color:#e2b646 ;
 .section-heading {
   font-family: "Muli", serif;
   font-size: 5rem;
-  font-weight: 300;
+  font-weight: 1000;
   color: #4b4b4b;
   margin-bottom: 3rem;
 }
@@ -717,7 +743,7 @@ background-color:#e2b646 ;
 .submit-btn {
   width: 45rem;
   height: 5rem;
-  background-color: #c29525;
+  background-color: black;
   color: #fff;
   border: none;
   margin-top: 2rem;
@@ -1141,6 +1167,15 @@ transition: all 0.5s;
 margin-top: 100px;
 color: white;
 }
+
+body > div.container > div.main > div.center{
+  justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
 body > div.container > section.Projekty > div > div.gallery > div > div > div > p{
 font-size: 13px;
 }
@@ -1250,13 +1285,13 @@ body > div.container > div.tgh > div> div{
     align-items: center;
     display: flex;
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 3rem;
    margin-bottom: 10px;
    color: white;
 }
 body > div.container > div.tgh > div> p{
 text-transform: uppercase;
-font-size: 1.5rem;
+
 margin-top: 10px;
 margin-bottom: 20px;
 justify-content: center;
@@ -1403,18 +1438,22 @@ display: flex;
 .img-slider .slide .info h2{
   color: #fff;
   font-size: 45px;
-  text-transform: uppercase;
+
   font-weight: 800;
   letter-spacing: 2px;
 }
 
 .img-slider .slide .info p{
   color: #fff;
-  background: rgba(0, 0, 0, 0.1);
-  font-size: 16px;
+  background: rgb(0 0 0 / 45%);
+  font-size: 15px;
+  line-height: 1.5;
   width: 60%;
   padding: 10px;
   border-radius: 4px;
+}
+body > div.container > div.main > div.img-slider{
+  box-shadow: 5px 5px 7px 6px #ccc;
 }
 
 .img-slider .navigation{
@@ -1580,7 +1619,7 @@ body > div.container > section.contact > div.right > div.black{
 
 body > div.container > section.contact > div.right > div.icons > ul > li{
   font-size: 20px;
-  color: gray;
+  
   padding:20px;
 }
 body > div.container > section.contact > div.right > div.icons{
@@ -1603,7 +1642,7 @@ body > div.container > section.contact > div.left > div > form > label > p{
 
  /*resp cd*/ 
 
- @media only screen and (max-width: 1600px){
+ @media only screen and (max-width: 1660px){
   body > div.container > section.about-us > div.section-header1 > img{
       display: none;
   }
@@ -1700,3 +1739,5 @@ align-items: center;
         margin-top: 145px;
     }
   }
+
+ 
