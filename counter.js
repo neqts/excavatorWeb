@@ -1,9 +1,14 @@
 const counters = document.querySelectorAll('.num')
+const numb1 = document.querySelector('.numb1')
+const numb2 = document.querySelector('.numb2')
 const speed = 20
 var percent = 80;
 var window_scrolled;
 
 
+
+if ( $(window).width() > 1500) {
+    
 counters.forEach(counter => {
     const updateCount = () => {
         const target = counter.getAttribute('data-target');
@@ -33,6 +38,18 @@ counters.forEach(counter => {
         }
     });
 })
+
+
+
+    }
+    else {
+    numb1.innerHTML = '5'
+    numb2.innerHTML='500'
+    }
+
+
+
+
 
 
 

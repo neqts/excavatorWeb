@@ -6,6 +6,9 @@
   list-style: none;
   text-decoration: none;
 }
+html{
+  overflow-x:hidden;
+}
 .subti{
   
     font-family: 'Rubik',Helvetica,Arial,Lucida,sans-serif;
@@ -753,8 +756,7 @@ background-color:#e2b646 ;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   cursor: pointer;
-  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+  
 }
 
 .footer {
@@ -1456,6 +1458,11 @@ body > div.container > div.main > div.img-slider{
   box-shadow: 5px 5px 7px 6px #ccc;
 }
 
+body > div.container > div.tgh > div.block3 > p{
+
+  text-align:center;
+}
+
 .img-slider .navigation{
   z-index: 2;
   position: absolute;
@@ -1739,5 +1746,7 @@ align-items: center;
         margin-top: 145px;
     }
   }
-
- 
+  @media only screen and (max-width: 600px){
+  body > div.container > div.foto{
+display: none;;
+  }}
